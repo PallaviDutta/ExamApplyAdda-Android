@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "253363749016",
+    "firebase_url": "https://formfillexam.firebaseio.com",
+    "project_id": "formfillexam",
+    "storage_bucket": "formfillexam.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:253363749016:android:ad4f0572f8470fca",
+        "android_client_info": {
+          "package_name": "com.pallavi.examforms.examformsfill"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "253363749016-7k9vrhg9corcftl7uj7nlbac99e2cg9i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pallavi.examforms.examformsfill",
+            "certificate_hash": "6DAD582611E52C567A643AA17A992E7C5D1D2439"
+          }
+        },
+        {
+          "client_id": "253363749016-ap8so7ecnfarkl9k7g00ahei3astudu1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAbf7U8up5C2tdJxMw071AeR6MHcFtV2s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "253363749016-ap8so7ecnfarkl9k7g00ahei3astudu1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

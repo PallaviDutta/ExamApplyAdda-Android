@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_delhi_university"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.pallavi.examforms.examformsfill.Activity.DelhiUniversityActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Welcome To Delhi University!!!"
+            android:gravity="center_horizontal"
+            android:textSize="20dp"
+            android:textColor="@color/colorseagreen"
+            android:layout_marginTop="60dp"
+            />
+
+        <TextView
+            android:id="@+id/edtxt_signup_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Choose from the given list ->"
+            android:textSize="@dimen/text_size"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="30dp"
+            android:textColor="@color/colorseagreen"
+            android:gravity="center_horizontal"/>
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spin_delhi"
+            android:layout_marginBottom="100dp"
+            />
+
+        <Button
+            android:onClick="clickbackhomedelhi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Home"
+            android:background="@color/colorseagreen"
+            android:textColor="@color/colorWhite"/>
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

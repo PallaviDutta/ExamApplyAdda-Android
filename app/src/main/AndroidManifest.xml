@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pallavi.examforms.examformsfill">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activity.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activity.RegisterActivity" />
+        <activity android:name=".Activity.ForeignOpportunityActivity" />
+        <activity android:name=".Activity.HomeActivity" />
+        <activity android:name=".Activity.DelhiUniversityActivity"></activity>
+        <activity android:name=".Activity.TopIndianCollegeActivity" />
+        <activity android:name=".Activity.ResearchInstitutesActivity" />
+    </application>
+
+</manifest>
